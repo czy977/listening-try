@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BBC 6 Minute English 精听</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">BBC 6 Minute English · 精听练习</p>
+        <h1 id="lessonTitle">Loading…</h1>
+        <p class="subtitle" id="lessonMeta"></p>
+      </div>
+      <button id="calibrationToggle" class="ghost-btn" type="button" title="显示或隐藏时间校准工具">校准模式</button>
+    </header>
+
+    <section class="audio-panel">
+      <label class="course-picker">
+        <span>① 选择精听课程</span>
+        <select id="lessonSelect" aria-label="选择精听课程"></select>
+      </label>
+      <label class="file-picker">
+        <span>② 选择对应的本地 MP3</span>
+        <input id="audioFile" type="file" accept="audio/*" />
+      </label>
+      <p id="audioStatus" class="status">音频只在当前浏览器中读取，不会上传。</p>
+      <audio id="audio" preload="metadata"></audio>
+    </section>
+
+    <section class="practice-card" aria-live="polite">
+      <div class="card-head">
+        <span id="speaker" class="speaker"></span>
+        <span id="progress" class="progress"></span>
+      </div>
+
+      <div class="playback-row">
+        <button id="playBtn" class="primary-btn" type="button">▶ 播放本句</button>
+        <button id="pauseBtn" class="secondary-btn" type="button">Ⅱ 暂停</button>
+        <button id="loopBtn" class="secondary-btn" type="button" aria-pressed="true">↻ 循环：开（剩余 3 遍）</button>
+        <label class="speed-label">速度
+          <select id="speedSelect">
+            <option value="0.75">0.75×</option>
+            <option value="0.85">0.85×</option>
+            <option value="1" selected>1.00×</option>
+          </select>
+        </label>
+      </div>
+
+      <div id="dictationDisplay" class="cloze-text dictation-display" aria-live="polite"></div>
+
+      <div class="answer-row">
+        <input id="answerInput" type="text" autocomplete="off" spellcheck="false" placeholder="输入你听到的任意单词，可一次输入多个" />
+        <button id="checkBtn" class="primary-btn" type="button">提交听到的词</button>
+      </div>
+      <p id="feedback" class="feedback"></p>
+
+      <div class="assist-row">
+        <button id="hintBtn" class="text-btn" type="button">提示一个单词</button>
+        <button id="showAnswerBtn" class="text-btn" type="button">查看完整答案</button>
+      </div>
+
+      <section id="answerPanel" class="answer-panel hidden">
+        <div class="answer-title-row">
+          <h2>完整句子</h2>
+          <button id="copySentenceBtn" class="copy-btn" type="button">复制完整句子</button>
+        </div>
+        <p id="fullSentence" class="full-sentence" tabindex="0"></p>
+        <h3 class="vocabulary-heading">本句重点词汇与表达</h3>
+        <div id="vocabularyList" class="vocabulary-list"></div>
+        <p id="copyStatus" class="copy-status" aria-live="polite"></p>
+      </section>
+
+      <section id="calibrationPanel" class="calibration-panel hidden">
+        <h2>时间校准</h2>
+        <p>听到开头或结尾不准时，每次前后移动 0.1 秒。修正会保存在当前浏览器。</p>
+        <div class="time-grid">
+          <div>
+            <strong>开始 <span id="startTime"></span>s</strong>
+            <button data-adjust="start" data-delta="-0.1">-0.1</button>
+            <button data-adjust="start" data-delta="0.1">+0.1</button>
+          </div>
+          <div>
+            <strong>结束 <span id="endTime"></span>s</strong>
+            <button data-adjust="end" data-delta="-0.1">-0.1</button>
+            <button data-adjust="end" data-delta="0.1">+0.1</button>
+          </div>
+        </div>
+        <div class="calibration-actions">
+          <button id="resetTimingBtn" class="secondary-btn" type="button">重置本句时间</button>
+          <button id="exportBtn" class="secondary-btn" type="button">导出校准 JSON</button>
+        </div>
+      </section>
+
+      <nav class="nav-row">
+        <button id="prevBtn" class="secondary-btn" type="button">← 上一句</button>
+        <button id="nextBtn" class="primary-btn" type="button">下一句 →</button>
+      </nav>
+    </section>
+
+    <footer>
+      <p>键盘：Enter 提交听到的词；完成整句后再次 Enter 进入下一句。每句默认播放三遍，每遍间隔两秒。</p>
+    </footer>
+  </main>
+
+  <script src="lessons/catalog.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

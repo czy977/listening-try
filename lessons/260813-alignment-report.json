@@ -1,0 +1,782 @@
+[
+  {
+    "id": 1,
+    "speaker": "Neil",
+    "old": [
+      13.19,
+      18.85
+    ],
+    "new": [
+      7.48,
+      11.22
+    ],
+    "confidence": 1.0,
+    "reference": "Hello, this is 6 Minute English from BBC Learning English.",
+    "asr": "hello this is 6 minute english from bbc learning english"
+  },
+  {
+    "id": 2,
+    "speaker": "Pippa",
+    "old": [
+      23.08,
+      36.18
+    ],
+    "new": [
+      13.12,
+      21.2
+    ],
+    "confidence": 1.0,
+    "reference": "When it comes to household chores, jobs like cleaning, washing clothes or looking after the kids, it's often women who do most of the work.",
+    "asr": "when it comes to household chores jobs like cleaning washing clothes or looking after the kids it's often women who do most of the work"
+  },
+  {
+    "id": 3,
+    "speaker": "Pippa",
+    "old": [
+      35.88,
+      43.18
+    ],
+    "new": [
+      21.52,
+      27.6
+    ],
+    "confidence": 1.0,
+    "reference": "Here, two female listeners of BBC World Service programme People Fixing the World share their experiences.",
+    "asr": "here two female listeners of bbc world service programme people fixing the world share their experiences"
+  },
+  {
+    "id": 4,
+    "speaker": "Pippa",
+    "old": [
+      42.88,
+      46.38
+    ],
+    "new": [
+      27.96,
+      29.74
+    ],
+    "confidence": 1.0,
+    "reference": "Do they sound familiar to you?",
+    "asr": "do they sound familiar to you"
+  },
+  {
+    "id": 5,
+    "speaker": "Listener 1",
+    "old": [
+      46.08,
+      58.57
+    ],
+    "new": [
+      29.46,
+      37.6
+    ],
+    "confidence": 1.0,
+    "reference": "I do everything. I do all the house chores, I do the food shopping, I do all the cooking, I clean the bathroom.",
+    "asr": "i do everything i do all the house chores i do the food shopping i do all the cooking i clean the bathroom"
+  },
+  {
+    "id": 6,
+    "speaker": "Listener 2",
+    "old": [
+      58.27,
+      63.49
+    ],
+    "new": [
+      38.12,
+      41.02
+    ],
+    "confidence": 1.0,
+    "reference": "Are the chores done equally between me and my husband?",
+    "asr": "are the chores done equally between me and my husband"
+  },
+  {
+    "id": 7,
+    "speaker": "Listener 2",
+    "old": [
+      63.19,
+      67.93
+    ],
+    "new": [
+      41.6,
+      45.74
+    ],
+    "confidence": 1.0,
+    "reference": "No, they're not done equally. I do most of the chores.",
+    "asr": "no they're not done equally i do most of the chores"
+  },
+  {
+    "id": 8,
+    "speaker": "Pippa",
+    "old": [
+      67.63,
+      74.43
+    ],
+    "new": [
+      46.58,
+      51.04
+    ],
+    "confidence": 1.0,
+    "reference": "So, you're a family man, Neil. Do you do your fair share of household chores?",
+    "asr": "so you're a family man neil do you do your fair share of household chores"
+  },
+  {
+    "id": 9,
+    "speaker": "Neil",
+    "old": [
+      76.72,
+      81.98
+    ],
+    "new": [
+      53.06,
+      56.44
+    ],
+    "confidence": 1.0,
+    "reference": "My wife works part time and I work full time.",
+    "asr": "my wife works part time and i work full time"
+  },
+  {
+    "id": 10,
+    "speaker": "Neil",
+    "old": [
+      81.68,
+      88.07
+    ],
+    "new": [
+      56.62,
+      62.24
+    ],
+    "confidence": 1.0,
+    "reference": "So, when I'm not working, I do things, and when she's not working, she does things.",
+    "asr": "so when i'm not working i do things and when she's not working she does things"
+  },
+  {
+    "id": 11,
+    "speaker": "Pippa",
+    "old": [
+      87.77,
+      99.37
+    ],
+    "new": [
+      62.22,
+      69.12
+    ],
+    "confidence": 1.0,
+    "reference": "Yeah, it's similar in my house, so me and my husband try to split things, but it's difficult, isn't it?",
+    "asr": "yeah it's similar in my house so me and my husband try to split things but it's difficult isn't it"
+  },
+  {
+    "id": 12,
+    "speaker": "Pippa",
+    "old": [
+      102.5,
+      110.19
+    ],
+    "new": [
+      69.98,
+      76.66
+    ],
+    "confidence": 1.0,
+    "reference": "Of course, no one enjoys cleaning the toilet or taking out the bins, but there is a serious side to the issue.",
+    "asr": "of course no one enjoys cleaning the toilet or taking out the bins but there is a serious side to the issue"
+  },
+  {
+    "id": 13,
+    "speaker": "Pippa",
+    "old": [
+      109.89,
+      117.4
+    ],
+    "new": [
+      77.18,
+      87.92
+    ],
+    "confidence": 1.0,
+    "reference": "Figures from UN Women, an organisation promoting gender equality, suggest that every day women around the world spend three hours more than men on unpaid care and domestic work.",
+    "asr": "figures from un women an organisation promoting gender equality suggest that every day women around the world spend three hours more than men on unpaid care and domestic work"
+  },
+  {
+    "id": 14,
+    "speaker": "Pippa",
+    "old": [
+      117.1,
+      122.1
+    ],
+    "new": [
+      87.8,
+      95.08
+    ],
+    "confidence": 1.0,
+    "reference": "So, in this episode, we'll be hearing about two projects helping husbands and wives share the housework more fairly.",
+    "asr": "so in this episode we'll be hearing about two projects helping husbands and wives share the housework more fairly"
+  },
+  {
+    "id": 15,
+    "speaker": "Neil",
+    "old": [
+      132.75,
+      140.65
+    ],
+    "new": [
+      105.12,
+      114.06
+    ],
+    "confidence": 1.0,
+    "reference": "According to a survey conducted by Good Housekeeping magazine earlier this year, what is the most hated household chore in Britain?",
+    "asr": "according to a survey conducted by good housekeeping magazine earlier this year what is the most hated household chore in britain"
+  },
+  {
+    "id": 16,
+    "speaker": "Neil",
+    "old": [
+      140.35,
+      146.0
+    ],
+    "new": [
+      114.42,
+      121.74
+    ],
+    "confidence": 0.897,
+    "reference": "Is it deep cleaning the oven, scrubbing the toilet, or cleaning the windows?",
+    "asr": "is it a deep cleaning the oven b scrubbing the toilet or c cleaning the windows"
+  },
+  {
+    "id": 17,
+    "speaker": "Pippa",
+    "old": [
+      145.7,
+      151.98
+    ],
+    "new": [
+      122.64,
+      127.4
+    ],
+    "confidence": 1.0,
+    "reference": "I'm going to say deep cleaning the oven because I really hate that job.",
+    "asr": "i'm going to say deep cleaning the oven because i really hate that job"
+  },
+  {
+    "id": 18,
+    "speaker": "Pippa",
+    "old": [
+      151.68,
+      154.13
+    ],
+    "new": [
+      127.34,
+      128.7
+    ],
+    "confidence": 1.0,
+    "reference": "I hardly ever do it.",
+    "asr": "i hardly ever do it"
+  },
+  {
+    "id": 19,
+    "speaker": "Neil",
+    "old": [
+      153.83,
+      160.36
+    ],
+    "new": [
+      134.74,
+      139.94
+    ],
+    "confidence": 1.0,
+    "reference": "Now, the first project we're going to look at is on the remote Indonesian island of Rote.",
+    "asr": "now the first project we're going to look at is on the remote indonesian island of rote"
+  },
+  {
+    "id": 20,
+    "speaker": "Neil",
+    "old": [
+      160.06,
+      167.52
+    ],
+    "new": [
+      140.36,
+      147.92
+    ],
+    "confidence": 1.0,
+    "reference": "Here, men traditionally work as rice farmers or fishermen, while women look after the home, the children and older people.",
+    "asr": "here men traditionally work as rice farmers or fishermen while women look after the home the children and older people"
+  },
+  {
+    "id": 21,
+    "speaker": "Neil",
+    "old": [
+      167.22,
+      171.68
+    ],
+    "new": [
+      148.26,
+      153.96
+    ],
+    "confidence": 1.0,
+    "reference": "But with few washing machines and no running water, these domestic chores take a long time.",
+    "asr": "but with few washing machines and no running water these domestic chores take a long time"
+  },
+  {
+    "id": 22,
+    "speaker": "Pippa",
+    "old": [
+      171.38,
+      178.98
+    ],
+    "new": [
+      153.98,
+      160.06
+    ],
+    "confidence": 0.941,
+    "reference": "The NGO Arungi runs a project trying to change attitudes about the role of the island's women.",
+    "asr": "the ngo arunji runs a project trying to change attitudes about the role of the island's women"
+  },
+  {
+    "id": 23,
+    "speaker": "Pippa",
+    "old": [
+      178.68,
+      182.72
+    ],
+    "new": [
+      160.16,
+      166.56
+    ],
+    "confidence": 0.97,
+    "reference": "They work alongside community leaders like Mama Shilpa, who spoke with BBC World Service reporter Ade Mardiyati.",
+    "asr": "they work alongside community leaders like mama shilpa who spoke with bbc world service reporter ade"
+  },
+  {
+    "id": 24,
+    "speaker": "Mama Shilpa",
+    "old": [
+      182.42,
+      188.97
+    ],
+    "new": [
+      167.28,
+      178.56
+    ],
+    "confidence": 0.945,
+    "reference": "It is expected that the tasks done in the house, like holding the child, feeding the child, washing dishes and cooking, will all be done by the mother.",
+    "asr": "it is expected that the task done in the house like holding the child feeding the child washing dishes cooking will all be done by the mother"
+  },
+  {
+    "id": 25,
+    "speaker": "Ade Mardiyati",
+    "old": [
+      188.67,
+      191.21
+    ],
+    "new": [
+      178.94,
+      182.28
+    ],
+    "confidence": 1.0,
+    "reference": "Shilpa tells me these are all considered women's work.",
+    "asr": "shilpa tells me these are all considered women's work"
+  },
+  {
+    "id": 26,
+    "speaker": "Ade Mardiyati",
+    "old": [
+      190.91,
+      196.12
+    ],
+    "new": [
+      182.56,
+      189.3
+    ],
+    "confidence": 1.0,
+    "reference": "And you might be thinking, well, the man is busy in the fields, so it's just a fair division of labour.",
+    "asr": "and you might be thinking well the man is busy in the fields so it's just a fair division of labour"
+  },
+  {
+    "id": 27,
+    "speaker": "Ade Mardiyati",
+    "old": [
+      195.82,
+      198.8
+    ],
+    "new": [
+      189.62,
+      193.46
+    ],
+    "confidence": 1.0,
+    "reference": "But Shilpa tells me women also help out in the fields.",
+    "asr": "but shilpa tells me women also help out in the fields"
+  },
+  {
+    "id": 28,
+    "speaker": "Neil",
+    "old": [
+      198.5,
+      206.75
+    ],
+    "new": [
+      193.8,
+      203.74
+    ],
+    "confidence": 1.0,
+    "reference": "On Rote, cleaning, cooking and sweeping are considered women's work, a negative term for boring and repetitive tasks which are traditionally done by women.",
+    "asr": "on rote cleaning cooking and sweeping are considered women's work a negative term for boring and repetitive tasks which are traditionally done by women"
+  },
+  {
+    "id": 29,
+    "speaker": "Pippa",
+    "old": [
+      206.45,
+      212.51
+    ],
+    "new": [
+      203.72,
+      211.04
+    ],
+    "confidence": 1.0,
+    "reference": "Many cultures have a division of labour, a way of organising work where different tasks are done by different groups of people.",
+    "asr": "many cultures have a division of labour a way of organising work where different tasks are done by different groups of people"
+  },
+  {
+    "id": 30,
+    "speaker": "Pippa",
+    "old": [
+      212.21,
+      217.44
+    ],
+    "new": [
+      211.16,
+      217.1
+    ],
+    "confidence": 1.0,
+    "reference": "But on Rote, this means women work even harder, helping out with the farming and fishing too.",
+    "asr": "but on rote this means women work even harder helping out with the farming and fishing too"
+  },
+  {
+    "id": 31,
+    "speaker": "Neil",
+    "old": [
+      217.14,
+      228.38
+    ],
+    "new": [
+      217.32,
+      227.88
+    ],
+    "confidence": 1.0,
+    "reference": "You might think this only happens in traditional societies, but research suggests that women in wealthy countries also spend much more time on unpaid care work than men.",
+    "asr": "you might think this only happens in traditional societies but research suggests that women in wealthy countries also spend much more time on unpaid care work than men"
+  },
+  {
+    "id": 32,
+    "speaker": "Neil",
+    "old": [
+      228.08,
+      234.91
+    ],
+    "new": [
+      228.34,
+      234.48
+    ],
+    "confidence": 0.857,
+    "reference": "One such country is Croatia, where the NGO Status M runs its Superdads project.",
+    "asr": "one such country is croatia where the ngo status m run their superdads project"
+  },
+  {
+    "id": 33,
+    "speaker": "Neil",
+    "old": [
+      234.61,
+      242.66
+    ],
+    "new": [
+      236.92,
+      242.2
+    ],
+    "confidence": 0.848,
+    "reference": "Project worker Anamarija Sočo leads workshops encouraging dads and sons to take some of the pressure off mums.",
+    "asr": "leads workshops encouraging dads and sons to take some of the pressure off mums"
+  },
+  {
+    "id": 34,
+    "speaker": "Neil",
+    "old": [
+      242.36,
+      246.82
+    ],
+    "new": [
+      242.58,
+      246.56
+    ],
+    "confidence": 1.0,
+    "reference": "Here, she explains the benefits of this to the BBC World Service.",
+    "asr": "here she explains the benefits of this to the bbc world service"
+  },
+  {
+    "id": 35,
+    "speaker": "Anamarija Sočo",
+    "old": [
+      246.52,
+      252.27
+    ],
+    "new": [
+      246.64,
+      254.16
+    ],
+    "confidence": 1.0,
+    "reference": "Mothers have, you know, of course, more space for their careers, for hobbies, or just simply to rest.",
+    "asr": "mothers have you know of course more space for their careers for hobbies or just simply to rest"
+  },
+  {
+    "id": 36,
+    "speaker": "Anamarija Sočo",
+    "old": [
+      251.97,
+      254.57
+    ],
+    "new": [
+      254.06,
+      255.68
+    ],
+    "confidence": 1.0,
+    "reference": "I mean, just to take a breather.",
+    "asr": "i mean just to take a breather"
+  },
+  {
+    "id": 37,
+    "speaker": "Anamarija Sočo",
+    "old": [
+      254.27,
+      258.3
+    ],
+    "new": [
+      256.2,
+      262.2
+    ],
+    "confidence": 1.0,
+    "reference": "Women tend to especially appreciate men who do these kinds of chores.",
+    "asr": "women tend to especially appreciate men who do these kinds of chores"
+  },
+  {
+    "id": 38,
+    "speaker": "Anamarija Sočo",
+    "old": [
+      258.0,
+      263.75
+    ],
+    "new": [
+      261.92,
+      269.96
+    ],
+    "confidence": 0.914,
+    "reference": "And when they start pulling their weight, then they jokingly say that women tend to nag less.",
+    "asr": "and when they start pulling their weight then they jokingly say that yeah women tend to neck less"
+  },
+  {
+    "id": 39,
+    "speaker": "Pippa",
+    "old": [
+      263.45,
+      270.32
+    ],
+    "new": [
+      270.34,
+      275.98
+    ],
+    "confidence": 1.0,
+    "reference": "Sometimes mums need to take a breather, an informal way of saying stop and rest a while.",
+    "asr": "sometimes mums need to take a breather an informal way of saying stop and rest a while"
+  },
+  {
+    "id": 40,
+    "speaker": "Neil",
+    "old": [
+      270.02,
+      273.24
+    ],
+    "new": [
+      276.56,
+      280.86
+    ],
+    "confidence": 0.957,
+    "reference": "Anamarija also thinks women appreciate it when their husbands pull their weight.",
+    "asr": "also thinks women appreciate it when their husbands pull their weight"
+  },
+  {
+    "id": 41,
+    "speaker": "Neil",
+    "old": [
+      272.94,
+      276.22
+    ],
+    "new": [
+      281.04,
+      284.28
+    ],
+    "confidence": 1.0,
+    "reference": "If you pull your weight, you work as hard as everyone else.",
+    "asr": "if you pull your weight you work as hard as everyone else"
+  },
+  {
+    "id": 42,
+    "speaker": "Pippa",
+    "old": [
+      275.92,
+      281.18
+    ],
+    "new": [
+      284.52,
+      291.9
+    ],
+    "confidence": 1.0,
+    "reference": "Both these NGO projects agree about one thing: men doing more to help around the house results in happier homes.",
+    "asr": "both these ngo projects agree about one thing men doing more to help around the house results in happier homes"
+  },
+  {
+    "id": 43,
+    "speaker": "Pippa",
+    "old": [
+      280.88,
+      284.6
+    ],
+    "new": [
+      292.0,
+      294.64
+    ],
+    "confidence": 1.0,
+    "reference": "Even if that means cleaning the toilet now and then.",
+    "asr": "even if that means cleaning the toilet now and then"
+  },
+  {
+    "id": 44,
+    "speaker": "Neil",
+    "old": [
+      299.07,
+      303.88
+    ],
+    "new": [
+      308.58,
+      312.72
+    ],
+    "confidence": 1.0,
+    "reference": "People hate cleaning the windows even more than scrubbing the oven.",
+    "asr": "people hate cleaning the windows even more than scrubbing the oven"
+  },
+  {
+    "id": 45,
+    "speaker": "Neil",
+    "old": [
+      303.58,
+      308.77
+    ],
+    "new": [
+      312.74,
+      317.78
+    ],
+    "confidence": 0.857,
+    "reference": "Apparently, twenty-three percent of the people who did the survey said cleaning the windows.",
+    "asr": "apparently 23 of the people who did the survey said cleaning the windows"
+  },
+  {
+    "id": 46,
+    "speaker": "Neil",
+    "old": [
+      308.47,
+      318.18
+    ],
+    "new": [
+      318.82,
+      327.3
+    ],
+    "confidence": 0.955,
+    "reference": "Let's recap the vocabulary we've learned, starting with chores: household tasks like cleaning, washing and ironing that have to be done regularly.",
+    "asr": "let's recap the vocabulary we've learnt starting with chores household tasks like cleaning washing and ironing that have to be done regularly"
+  },
+  {
+    "id": 47,
+    "speaker": "Pippa",
+    "old": [
+      317.88,
+      322.73
+    ],
+    "new": [
+      327.62,
+      331.76
+    ],
+    "confidence": 1.0,
+    "reference": "If you do your fair share of work, you do a reasonable amount.",
+    "asr": "if you do your fair share of work you do a reasonable amount"
+  },
+  {
+    "id": 48,
+    "speaker": "Neil",
+    "old": [
+      322.43,
+      327.64
+    ],
+    "new": [
+      332.06,
+      338.76
+    ],
+    "confidence": 1.0,
+    "reference": "Women's work is a negative term for the boring and repetitive tasks which are stereotypically done by women.",
+    "asr": "women's work is a negative term for the boring and repetitive tasks which are stereotypically done by women"
+  },
+  {
+    "id": 49,
+    "speaker": "Pippa",
+    "old": [
+      327.34,
+      332.08
+    ],
+    "new": [
+      339.06,
+      345.02
+    ],
+    "confidence": 1.0,
+    "reference": "The division of labour is a way of organising work where different tasks are done by different groups of people.",
+    "asr": "the division of labour is a way of organising work where different tasks are done by different groups of people"
+  },
+  {
+    "id": 50,
+    "speaker": "Neil",
+    "old": [
+      331.78,
+      339.13
+    ],
+    "new": [
+      345.08,
+      349.94
+    ],
+    "confidence": 1.0,
+    "reference": "The idiom take a breather means to stop what you're doing for a short time and rest.",
+    "asr": "the idiom take a breather means to stop what you're doing for a short time and rest"
+  },
+  {
+    "id": 51,
+    "speaker": "Pippa",
+    "old": [
+      338.83,
+      345.32
+    ],
+    "new": [
+      350.04,
+      355.46
+    ],
+    "confidence": 1.0,
+    "reference": "And finally, if you pull your weight, you work as hard as everyone else doing the same job.",
+    "asr": "and finally if you pull your weight you work as hard as everyone else doing the same job"
+  },
+  {
+    "id": 52,
+    "speaker": "Pippa",
+    "old": [
+      345.02,
+      354.38
+    ],
+    "new": [
+      355.76,
+      362.58
+    ],
+    "confidence": 1.0,
+    "reference": "Once again, our six minutes are up, but remember, you can find a free transcript including all the vocabulary on our website.",
+    "asr": "once again our six minutes are up but remember you can find a free transcript including all the vocabulary on our website"
+  }
+]
