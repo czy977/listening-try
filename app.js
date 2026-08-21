@@ -3,6 +3,7 @@
   const $ = id => document.getElementById(id);
   const WORD_RE = /[A-Za-z0-9]+(?:[’'][A-Za-z]+)*/g, audio = $("audio");
   const state = { lessonId: null, index: 0, loop: true, loopPasses: 0, loopTimer: null, complete: false, calibration: false, objectUrl: null, revealed: [], timings: {} };
+  let celebrationTimer = null;
   const progressKey = () => `bbc-listening-index-${state.lessonId}`;
   const timingsKey = () => `bbc-listening-timings-v2-${state.lessonId}`;
 
@@ -12,6 +13,16 @@
   function timing() { const c = card(), saved = state.timings[c.id]; return saved || { start: c.start, end: c.end }; }
   function clearLoopTimer() { if (state.loopTimer) { clearTimeout(state.loopTimer); state.loopTimer = null; } }
   function stopAudio() { clearLoopTimer(); audio.pause(); }
+  function hideCelebration() {
+    if (celebrationTimer) clearTimeout(celebrationTimer);
+    celebrationTimer = null;
+    $("celebration").classList.add("hidden");
+  }
+  function showCelebration() {
+    hideCelebration();
+    $("celebration").classList.remove("hidden");
+    celebrationTimer = setTimeout(hideCelebration, 2800);
+  }
   function updateLoopButton() {
     const remaining = Math.max(0, 3 - state.loopPasses);
     $("loopBtn").setAttribute("aria-pressed", String(state.loop));
@@ -58,7 +69,7 @@
     audio.play().catch(() => { $("audioStatus").textContent = "浏览器阻止了自动播放，请点击“播放本句”。"; });
   }
   function render({ autoplay = false } = {}) {
-    stopAudio(); state.loop = true; state.loopPasses = 0; updateLoopButton(); state.complete = false; state.revealed = words().map(() => false); const c = card();
+    stopAudio(); hideCelebration(); state.loop = true; state.loopPasses = 0; updateLoopButton(); state.complete = false; state.revealed = words().map(() => false); const c = card();
     $("speaker").textContent = c.speaker; $("progress").textContent = `${state.index + 1} / ${cards.length}`;
     $("answerInput").value = ""; $("feedback").textContent = ""; $("feedback").className = "feedback";
     $("answerPanel").classList.add("hidden"); $("copyStatus").textContent = ""; $("prevBtn").disabled = state.index === 0;
@@ -74,7 +85,7 @@
     const target = words(); let found = 0;
     guesses.forEach(guess => { const i = target.findIndex((w, index) => !state.revealed[index] && w.normalised === guess); if (i !== -1) { state.revealed[i] = true; found++; } });
     $("answerInput").value = ""; renderDictation(true); const remaining = state.revealed.filter(v => !v).length;
-    if (!remaining) showAnswer(true, "✓ 整句完成！再次按 Enter 可进入下一句。");
+    if (!remaining) { showAnswer(true, "✓ 整句完成！再次按 Enter 可进入下一句。"); showCelebration(); }
     else { $("feedback").textContent = found ? `找到了 ${found} 个正确单词，还有 ${remaining} 个位置。` : "这次没有找到新的正确单词，请再听一次。"; $("feedback").className = `feedback ${found ? "ok" : "bad"}`; }
     $("answerInput").focus();
   }
@@ -103,6 +114,7 @@
   $("showAnswerBtn").addEventListener("click", () => { state.revealed = state.revealed.map(() => true); renderDictation(true); showAnswer(false, "已显示完整答案。建议重新播放并跟读一遍。"); });
   $("hintBtn").addEventListener("click", () => { const i = state.revealed.findIndex(v => !v); if (i < 0) return; state.revealed[i] = true; renderDictation(true); const remaining = state.revealed.filter(v => !v).length; if (!remaining) showAnswer(true, "✓ 整句完成！"); else { $("feedback").textContent = `已提示一个单词，还有 ${remaining} 个位置。`; $("feedback").className = "feedback"; } });
   $("copySentenceBtn").addEventListener("click", async () => { const text = card().fullText; try { await navigator.clipboard.writeText(text); } catch { const temp = document.createElement("textarea"); temp.value = text; document.body.appendChild(temp); temp.select(); document.execCommand("copy"); temp.remove(); } $("copyStatus").textContent = "已复制完整句子。"; });
+  $("celebration").addEventListener("click", hideCelebration);
   $("prevBtn").addEventListener("click", prev); $("nextBtn").addEventListener("click", next);
   $("answerInput").addEventListener("keydown", event => { if (event.key === "Enter") state.complete ? next() : submitWords(); });
   $("calibrationToggle").addEventListener("click", () => { state.calibration = !state.calibration; $("calibrationPanel").classList.toggle("hidden", !state.calibration); $("calibrationToggle").textContent = state.calibration ? "退出校准" : "校准模式"; });

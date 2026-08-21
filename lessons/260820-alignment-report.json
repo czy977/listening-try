@@ -1,0 +1,488 @@
+[
+  {
+    "id": 1,
+    "speaker": "Phil",
+    "start": 14.2,
+    "end": 18.24,
+    "confidence": 1.0,
+    "reference": "Here at 6 Minute English, we love discussing new tech.",
+    "asr": "here at 6 minute english we love discussing new tech"
+  },
+  {
+    "id": 2,
+    "speaker": "Phil",
+    "start": 18.26,
+    "end": 27.84,
+    "confidence": 0.977,
+    "reference": "One of the most controversial technologies of recent years is driverless cars, also known as self-driving cars, autonomous cars or robotaxis.",
+    "asr": "one of the most controversial technologies of recent years is driverless cars also known as self driving cars autonomous cars or"
+  },
+  {
+    "id": 3,
+    "speaker": "Pippa",
+    "start": 28.78,
+    "end": 33.96,
+    "confidence": 1.0,
+    "reference": "Many people say they wouldn't feel safe in a car without a human driver.",
+    "asr": "many people say they wouldn't feel safe in a car without a human driver"
+  },
+  {
+    "id": 4,
+    "speaker": "Pippa",
+    "start": 33.98,
+    "end": 40.0,
+    "confidence": 1.0,
+    "reference": "But there are concerns from other road users too: pedestrians, runners and cyclists.",
+    "asr": "but there are concerns from other road users too pedestrians runners and cyclists"
+  },
+  {
+    "id": 5,
+    "speaker": "Pippa",
+    "start": 40.26,
+    "end": 42.8,
+    "confidence": 1.0,
+    "reference": "How will driverless cars interact with them?",
+    "asr": "how will driverless cars interact with them"
+  },
+  {
+    "id": 6,
+    "speaker": "Pippa",
+    "start": 43.18,
+    "end": 48.46,
+    "confidence": 1.0,
+    "reference": "It's a problem Professor Stephen Brewster, from Glasgow University, has been working on.",
+    "asr": "it's a problem professor stephen brewster from glasgow university has been working on"
+  },
+  {
+    "id": 7,
+    "speaker": "Pippa",
+    "start": 48.62,
+    "end": 52.44,
+    "confidence": 1.0,
+    "reference": "He explained more to BBC World Service programme Tech Life.",
+    "asr": "he explained more to bbc world service programme tech life"
+  },
+  {
+    "id": 8,
+    "speaker": "Stephen Brewster",
+    "start": 52.62,
+    "end": 58.66,
+    "confidence": 0.966,
+    "reference": "If you're outside a vehicle right now, you can see the driver inside the vehicle, you can wave to them, they can see you, you can make eye contact.",
+    "asr": "if you're outside the vehicle right now you can see the driver inside the vehicle you can wave to them they can see you you can make eye contact"
+  },
+  {
+    "id": 9,
+    "speaker": "Stephen Brewster",
+    "start": 58.78,
+    "end": 62.96,
+    "confidence": 0.966,
+    "reference": "But when you come to an autonomous vehicle, there's no person in the driving seat.",
+    "asr": "when you come to an autonomous vehicle there's no person in the driving seat"
+  },
+  {
+    "id": 10,
+    "speaker": "Stephen Brewster",
+    "start": 63.18,
+    "end": 68.48,
+    "confidence": 1.0,
+    "reference": "So how do you negotiate whether they're going to go, whether they're going to let you go?",
+    "asr": "so how do you negotiate whether they're going to go whether they're going to let you go"
+  },
+  {
+    "id": 11,
+    "speaker": "Phil",
+    "start": 68.54,
+    "end": 71.14,
+    "confidence": 1.0,
+    "reference": "On my walk to work, I need to cross the road.",
+    "asr": "on my walk to work i need to cross the road"
+  },
+  {
+    "id": 12,
+    "speaker": "Phil",
+    "start": 71.36,
+    "end": 74.2,
+    "confidence": 1.0,
+    "reference": "Usually, a driver makes eye contact with me.",
+    "asr": "usually a driver makes eye contact with me"
+  },
+  {
+    "id": 13,
+    "speaker": "Phil",
+    "start": 74.04,
+    "end": 77.64,
+    "confidence": 1.0,
+    "reference": "They look directly into my eyes and then wave me across.",
+    "asr": "they look directly into my eyes and then wave me across"
+  },
+  {
+    "id": 14,
+    "speaker": "Phil",
+    "start": 78.14,
+    "end": 82.36,
+    "confidence": 1.0,
+    "reference": "To wave means to raise your hand and move it from side to side.",
+    "asr": "to wave means to raise your hand and move it from side to side"
+  },
+  {
+    "id": 15,
+    "speaker": "Phil",
+    "start": 82.48,
+    "end": 87.1,
+    "confidence": 1.0,
+    "reference": "It's a gesture for saying hello, or a way of telling a person to do something.",
+    "asr": "it's a gesture for saying hello or a way of telling a person to do something"
+  },
+  {
+    "id": 16,
+    "speaker": "Pippa",
+    "start": 86.82,
+    "end": 94.34,
+    "confidence": 0.944,
+    "reference": "Luckily, Phil, you usually arrive safely at work and as yet there are no driverless cars in London.",
+    "asr": "luckily phil you usually arrive safely at work and as yet there aren't no driverless cars in london"
+  },
+  {
+    "id": 17,
+    "speaker": "Pippa",
+    "start": 94.66,
+    "end": 99.08,
+    "confidence": 0.966,
+    "reference": "But, Phil, how would you feel about crossing that road in front of a robotaxi?",
+    "asr": "but phil how would you feel about crossing that road in front of a"
+  },
+  {
+    "id": 18,
+    "speaker": "Phil",
+    "start": 100.02,
+    "end": 104.76,
+    "confidence": 1.0,
+    "reference": "Well, maybe a little bit nervous. I might wait for it to go and go behind it or something.",
+    "asr": "well maybe a little bit nervous i might wait for it to go and go behind it or something"
+  },
+  {
+    "id": 19,
+    "speaker": "Pippa",
+    "start": 105.08,
+    "end": 106.8,
+    "confidence": 0.889,
+    "reference": "Mmm... yeah, I get that.",
+    "asr": "yeah i get that"
+  },
+  {
+    "id": 20,
+    "speaker": "Pippa",
+    "start": 106.7,
+    "end": 114.2,
+    "confidence": 1.0,
+    "reference": "I think maybe as we get more used to these technologies, we'll get more used to how to deal with them and when to cross.",
+    "asr": "i think maybe as we get more used to these technologies we'll get more used to how to deal with them and when to cross"
+  },
+  {
+    "id": 21,
+    "speaker": "Pippa",
+    "start": 113.92,
+    "end": 120.54,
+    "confidence": 1.0,
+    "reference": "But in this episode, we investigate the tech helping driverless cars communicate on the roads.",
+    "asr": "but in this episode we investigate the tech helping driverless cars communicate on the roads"
+  },
+  {
+    "id": 22,
+    "speaker": "Phil",
+    "start": 161.08,
+    "end": 169.42,
+    "confidence": 1.0,
+    "reference": "Because accidents are often caused by not seeing the oncoming danger, Professor Brewster wants to make driverless cars more visible.",
+    "asr": "because accidents are often caused by not seeing the oncoming danger professor brewster wants to make driverless cars more visible"
+  },
+  {
+    "id": 23,
+    "speaker": "Phil",
+    "start": 169.72,
+    "end": 174.72,
+    "confidence": 1.0,
+    "reference": "He discussed his work with BBC Tech Life's presenter Chris Vallance.",
+    "asr": "he discussed his work with bbc tech life's presenter chris vallance"
+  },
+  {
+    "id": 24,
+    "speaker": "Chris Vallance",
+    "start": 175.02,
+    "end": 183.62,
+    "confidence": 1.0,
+    "reference": "What kind of signals worked in terms of alerting pedestrians and runners and cyclists to the intentions of the vehicle?",
+    "asr": "what kind of signals worked in terms of alerting pedestrians and runners and cyclists to the intentions of the vehicle"
+  },
+  {
+    "id": 25,
+    "speaker": "Stephen Brewster",
+    "start": 183.78,
+    "end": 188.56,
+    "confidence": 1.0,
+    "reference": "We tested two things. We tested animations and fixed, coloured light rings.",
+    "asr": "we tested two things we tested animations and fixed coloured light rings"
+  },
+  {
+    "id": 26,
+    "speaker": "Stephen Brewster",
+    "start": 188.96,
+    "end": 191.14,
+    "confidence": 0.769,
+    "reference": "The animations work well for pedestrians.",
+    "asr": "the animations they worked well for pedestrians"
+  },
+  {
+    "id": 27,
+    "speaker": "Stephen Brewster",
+    "start": 190.86,
+    "end": 195.6,
+    "confidence": 1.0,
+    "reference": "But when it came to runners and cyclists, they have much less time to make their decisions.",
+    "asr": "but when it came to runners and cyclists they have much less time to make their decisions"
+  },
+  {
+    "id": 28,
+    "speaker": "Stephen Brewster",
+    "start": 195.48,
+    "end": 199.08,
+    "confidence": 1.0,
+    "reference": "So if you do a quick glance at a vehicle, you don't really see the animation.",
+    "asr": "so if you do a quick glance at a vehicle you don't really see the animation"
+  },
+  {
+    "id": 29,
+    "speaker": "Pippa",
+    "start": 199.46,
+    "end": 203.32,
+    "confidence": 1.0,
+    "reference": "It's important to alert people to driverless cars.",
+    "asr": "it's important to alert people to driverless cars"
+  },
+  {
+    "id": 30,
+    "speaker": "Pippa",
+    "start": 203.5,
+    "end": 207.64,
+    "confidence": 1.0,
+    "reference": "To alert somebody means to warn them about a potential danger.",
+    "asr": "to alert somebody means to warn them about a potential danger"
+  },
+  {
+    "id": 31,
+    "speaker": "Pippa",
+    "start": 207.78,
+    "end": 211.8,
+    "confidence": 1.0,
+    "reference": "Some cars do this with animations: displays of moving images.",
+    "asr": "some cars do this with animations displays of moving images"
+  },
+  {
+    "id": 32,
+    "speaker": "Pippa",
+    "start": 211.52,
+    "end": 215.96,
+    "confidence": 1.0,
+    "reference": "For example, a green man walking to signal it's safe to cross.",
+    "asr": "for example a green man walking to signal it's safe to cross"
+  },
+  {
+    "id": 33,
+    "speaker": "Phil",
+    "start": 216.38,
+    "end": 223.2,
+    "confidence": 1.0,
+    "reference": "Animations alert pedestrians but are not suitable for runners and cyclists, who are travelling too fast to react.",
+    "asr": "animations alert pedestrians but are not suitable for runners and cyclists who are travelling too fast to react"
+  },
+  {
+    "id": 34,
+    "speaker": "Phil",
+    "start": 223.54,
+    "end": 225.82,
+    "confidence": 1.0,
+    "reference": "They only have time for a glance.",
+    "asr": "they only have time for a glance"
+  },
+  {
+    "id": 35,
+    "speaker": "Phil",
+    "start": 226.06,
+    "end": 229.06,
+    "confidence": 1.0,
+    "reference": "A glance at something means a quick look.",
+    "asr": "a glance at something means a quick look"
+  },
+  {
+    "id": 36,
+    "speaker": "Phil",
+    "start": 228.78,
+    "end": 236.38,
+    "confidence": 1.0,
+    "reference": "So, instead, Stephen's team used coloured light rings, similar to traffic lights, to warn cyclists and runners.",
+    "asr": "so instead stephen's team used coloured light rings similar to traffic lights to warn cyclists and runners"
+  },
+  {
+    "id": 37,
+    "speaker": "Pippa",
+    "start": 237.16,
+    "end": 238.82,
+    "confidence": 1.0,
+    "reference": "Culture is another problem.",
+    "asr": "culture is another problem"
+  },
+  {
+    "id": 38,
+    "speaker": "Pippa",
+    "start": 239.12,
+    "end": 241.44,
+    "confidence": 1.0,
+    "reference": "The meaning of body language can change.",
+    "asr": "the meaning of body language can change"
+  },
+  {
+    "id": 39,
+    "speaker": "Pippa",
+    "start": 241.44,
+    "end": 247.76,
+    "confidence": 1.0,
+    "reference": "For example, hand waving can mean 'please proceed' in one culture, but 'thank you' in another.",
+    "asr": "for example hand waving can mean please proceed in one culture but thank you in another"
+  },
+  {
+    "id": 40,
+    "speaker": "Phil",
+    "start": 248.94,
+    "end": 253.74,
+    "confidence": 0.903,
+    "reference": "Ammar Al-Taie is a researcher at the Advanced Institute of Science and Technology in South Korea.",
+    "asr": "is a researcher at the advanced institute of science and technology in south korea"
+  },
+  {
+    "id": 41,
+    "speaker": "Phil",
+    "start": 253.92,
+    "end": 262.76,
+    "confidence": 1.0,
+    "reference": "Here, Ammar tells BBC World Service's Tech Life why Korean culture is especially suited to self-driving cars.",
+    "asr": "here ammar tells bbc world service's tech life why korean culture is especially suited to self driving cars"
+  },
+  {
+    "id": 42,
+    "speaker": "Ammar Al-Taie",
+    "start": 262.86,
+    "end": 268.54,
+    "confidence": 1.0,
+    "reference": "In South Korea, for example, jaywalking is illegal, whereas in the UK, you know, we tend to jaywalk a lot.",
+    "asr": "in south korea for example jaywalking is illegal whereas in the uk you know we tend to jaywalk a lot"
+  },
+  {
+    "id": 43,
+    "speaker": "Pippa",
+    "start": 268.78,
+    "end": 271.46,
+    "confidence": 1.0,
+    "reference": "Jaywalking is an American English word.",
+    "asr": "jaywalking is an american english word"
+  },
+  {
+    "id": 44,
+    "speaker": "Pippa",
+    "start": 271.6,
+    "end": 276.98,
+    "confidence": 1.0,
+    "reference": "It means crossing the road at a place where crossing is not allowed or without taking care.",
+    "asr": "it means crossing the road at a place where crossing is not allowed or without taking care"
+  },
+  {
+    "id": 45,
+    "speaker": "Pippa",
+    "start": 277.12,
+    "end": 283.54,
+    "confidence": 1.0,
+    "reference": "Unlike Britain, jaywalking is rare in South Korea, making the country safer for autonomous cars.",
+    "asr": "unlike britain jaywalking is rare in south korea making the country safer for autonomous cars"
+  },
+  {
+    "id": 46,
+    "speaker": "Phil",
+    "start": 283.74,
+    "end": 294.26,
+    "confidence": 0.964,
+    "reference": "We've heard a lot about making driverless cars safer, and with plans to introduce them to London later this year, we'll soon see how safe they really are.",
+    "asr": "we've heard a lot about making driverless cars safer and we've plans to introduce them to london later this year we'll soon see how safe they really are"
+  },
+  {
+    "id": 47,
+    "speaker": "Phil",
+    "start": 307.32,
+    "end": 315.28,
+    "confidence": 1.0,
+    "reference": "Phoenix, Arizona, was the first city in the world to have self-driving cars operating on public roads without a human safety driver.",
+    "asr": "phoenix arizona was the first city in the world to have self driving cars operating on public roads without a human safety driver"
+  },
+  {
+    "id": 48,
+    "speaker": "Phil",
+    "start": 315.0,
+    "end": 316.94,
+    "confidence": 1.0,
+    "reference": "And that was in 2017.",
+    "asr": "and that was in 2017"
+  },
+  {
+    "id": 49,
+    "speaker": "Phil",
+    "start": 317.22,
+    "end": 324.66,
+    "confidence": 0.933,
+    "reference": "Let's recap the vocabulary we've learned, starting with eye contact: looking directly into someone's eyes.",
+    "asr": "let's recap the vocabulary we've learnt starting with eye contact looking directly into someone's eyes"
+  },
+  {
+    "id": 50,
+    "speaker": "Pippa",
+    "start": 324.9,
+    "end": 330.72,
+    "confidence": 1.0,
+    "reference": "To wave at someone is a way of saying hi, by raising your hand and waving it from side to side.",
+    "asr": "to wave at someone is a way of saying hi by raising your hand and waving it from side to side"
+  },
+  {
+    "id": 51,
+    "speaker": "Phil",
+    "start": 330.82,
+    "end": 334.3,
+    "confidence": 1.0,
+    "reference": "If you alert someone, you warn them of potential danger.",
+    "asr": "if you alert someone you warn them of potential danger"
+  },
+  {
+    "id": 52,
+    "speaker": "Pippa",
+    "start": 334.4,
+    "end": 338.2,
+    "confidence": 1.0,
+    "reference": "An animation is a display made up of moving images.",
+    "asr": "an animation is a display made up of moving images"
+  },
+  {
+    "id": 53,
+    "speaker": "Phil",
+    "start": 338.3,
+    "end": 341.26,
+    "confidence": 1.0,
+    "reference": "A glance is a quick, brief look at something.",
+    "asr": "a glance is a quick brief look at something"
+  },
+  {
+    "id": 54,
+    "speaker": "Pippa",
+    "start": 341.44,
+    "end": 347.82,
+    "confidence": 1.0,
+    "reference": "And finally, the American English term jaywalking means crossing the road where you're not supposed to.",
+    "asr": "and finally the american english term jaywalking means crossing the road where you're not supposed to"
+  }
+]
